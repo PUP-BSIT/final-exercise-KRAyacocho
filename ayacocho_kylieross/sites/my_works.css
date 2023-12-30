@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Roboto+Mono&display=swap');
+
+body {
+    background-color: #4D5DB8;
+    margin: 0;
+}
+
+.navigation {
+    background-color: #FBC31A;
+    margin: 20px 80px;
+    border: 6px solid #343437;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: fit-content;
+    height: 80px;
+    margin-left: 8px;
+}
+
+.selection {
+    margin-left: auto;
+    padding: 20px;
+}
+
+.selection a {
+    margin-left: 20px;
+    text-decoration: overline;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: #343437;
+}
+
+.selection a:hover {
+    color:#5874ff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0ECEB;
+    background-size: 70px 70px;
+    background-image: linear-gradient(to right, #343437 2px, transparent 2px),
+                    linear-gradient(to bottom, #343437 2px, transparent 2px);
+    margin: 16px 80px;
+    padding: 40px;
+    border: 4px solid #343437;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.line-breaks {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: #343437;
+    height: 4px;
+    margin: 10px 0;
+}
+
+.header-container {
+    margin: 10px;
+    background-color: #FBC31A;
+    border: 4px solid #343437;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 50px;
+    color: #343437;
+    padding: 0px 20px 0px 20px;
+    margin: 8px 0;
+}
+
+.header-container h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    color: #343437;
+    padding: 0px 20px 0px 20px;
+}
+
+.projects-container {
+    background-color: #FBC31A;
+    border: 4px solid #343437;
+    text-align: center;
+    margin: 10px;
+}
+
+.image-container img {
+    margin: 20px;
+    border: 15px solid #343437;
+    height: 400px;
+}
+
+.image-container a {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: overline;
+    font-size: 16px;
+    color: #343437;
+}
+
+.image-container a:hover {
+    color: #5874ff;
+}

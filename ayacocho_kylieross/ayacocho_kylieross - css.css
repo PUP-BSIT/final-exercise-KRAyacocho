@@ -1,246 +1,212 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inconsolata&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&display=swap');
 
 body {
-    background-color: #047992;
+    background-color: #4D5DB8;
+    margin: 0;
+}
+
+.navigation {
+    background-color: #FBC31A;
+    margin: 20px 80px;
+    border: 6px solid #343437;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: fit-content;
+    height: 80px;
+    margin-left: 8px;
+}
+
+.selection {
+    margin-left: auto;
+    padding: 20px;
+}
+
+.selection a {
+    margin-left: 20px;
+    text-decoration: overline;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: #343437;
+}
+
+.selection a:hover {
+    color:#5874ff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0ECEB;
     background-size: 70px 70px;
-    background-image:
-        linear-gradient(to right, #5c9ca4 2px, transparent 2px),
-        linear-gradient(to bottom, #5c9ca4 2px, transparent 2px)
+    background-image: linear-gradient(to right, #343437 2px, transparent 2px),
+                    linear-gradient(to bottom, #343437 2px, transparent 2px);
+    margin: 16px 80px;
+    padding: 40px;
+    border: 4px solid #343437;
+    flex-wrap: wrap;
 }
 
 .line-breaks {
-    width:100%;
-    size: 3px; 
-    color: #91a6ac;
+    border: 0;
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: #343437;
+    height: 4px;
+    margin: 10px 0;
 }
 
-.line-breaks2 {
-    width: 90%;
-    size: 2px;
-    color: #91a6ac;
-}
-
-.line-breaks3 {
-    width: 70%;
-    size: 1px;
-    color: #91a6ac;
-}
-
-.bg-image1 {
-    background-color: #edecec;
-    margin: 60px 200px;
-    padding: 40px;
-    border: 8px solid #094862;
-    border-radius: 100px 100px;
-}
-
-.name h1 {
+.name-container {
+    background-color: #FBC31A;
+    border: 4px solid #343437;
     text-align: center;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: #094862;
-    font-family: 'Dela Gothic One';
-    font-size: 48px;
-    color: #f6aa0c;
 }
 
-.name p {
-    font-family: 'Inconsolata';
+.name-container p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #343437;
+}
+
+.name-container h1 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 50px;
+    color: #343437;
+    padding: 0px 20px 0px 20px;
+    margin: 8px 0;
+}
+
+.name-container h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    color: #343437;
+    padding: 0px 20px 0px 20px;
+}
+
+.me-img {
+    border: 4px solid #343437;
+    border-radius: 50%;
+    margin: 10px;
+    max-width: 20%;
+}
+
+.my-interests-container {
+    background-color: #92C558;
+    border: 4px solid #343437;
+    margin: 40px;
+}
+
+.my-interests-container h2 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px;
+    padding: 0px 20px;
+    color:#343437;
+}
+
+.my-interests-container li {
+    font-family: 'Roboto Mono', monospace;
     font-size: 18px;
-    color: #047992;
+    padding: 0px 20px;
+    color: #343437;
 }
 
-.my-interests h2 {
-    margin-left: 40px;
-    font-family: 'Dela Gothic One';
-    -webkit-text-stroke: 0.1px;
-    -webkit-text-stroke-color: #094862;
-    font-size: 30px;
-    color: #047992;
+.my-interests-container p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    color: #343437;
 }
 
-.my-interests li {
-    font-family: 'Josefin Sans';
-    font-size: 20px;
-    color: #ad286b;
+.gallery-title {
+    background-color: #FBC31A;
+    border: 4px solid #343437;
+    margin-top: 28px;
 }
 
-.myinterests p {
-    font-family: 'Inconsolata';
-    font-size: 20px;
-    color: #7a506e;
-}
-
-.my-interests img {
-    border: 10px solid #047992;
-    border-radius: 300px 180px;
-    float: right;
-    margin: 24px;
-    max-width: 50%;
-    height: auto;
-}
-
-.my-works h2 {
-    margin-left: 40px;
-    font-family: 'Dela Gothic One';
-    -webkit-text-stroke: 0.1px;
-    -webkit-text-stroke-color: #094862;
-    font-size: 30px;
-    color: #047992;
-}
-
-.my-works li {
-    font-family: 'Inconsolata';
-    margin-left: 40px;
-    font-size: 20px;
-    color: #ad286b;
-}
-
-.my-works a {
-    font-size: 20px;
-    color: #5c9ca4;
-}
-
-.testimonial h2 {
-    margin-left: 40px;
-    font-family: 'Dela Gothic One';
-    -webkit-text-stroke: 0.1px;
-    -webkit-text-stroke-color: #094862;
-    font-size: 30px;
-    color: #047992;
-}
-
-.testimonial li {
-    font-family: 'Inconsolata';
-    margin-left: 40px;
-    font-size: 20px;
-    color: #047992;
-}
-
-.testimonial p {
-    font-family: 'Josefin Sans';
-    font-size: 20px;
-    color: #ad286b;
-}
-
-.gallery h2 {
-    font-family: 'Dela Gothic One';
-    -webkit-text-stroke: 0.1px;
-    -webkit-text-stroke-color: #094862;
-    font-size: 30px;
-    color: #047992;
-}
-
-.gallery {
+.gallery-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
 }
 
-.gallery img {
-    border: 5px solid #047992;
+.gallery-title h2 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px;
+    padding: 0px 20px;
+    color:#343437;
+}
+
+.gallery-container img {
+    margin: 8px;
+    border: 15px solid #343437;
     width: 300px;
     height: 300px;
 }
 
-.goals h2 {
-    margin-left: 40px;
-    font-family: 'Dela Gothic One';
-    -webkit-text-stroke: 0.1px;
-    -webkit-text-stroke-color: #094862;
+.testimonial-container {
+    background-color: #92C558;
+    border: 4px solid #343437;
+    margin: 40px;
+}
+
+.testimonial-container h2 {
+    font-family: 'Arimo', sans-serif;
     font-size: 30px;
-    color: #047992;
+    padding: 0px 20px;
+    color:#343437;
 }
 
-.goals li {
-    font-family: 'Inconsolata';
-    margin-left: 40px;
-    font-size: 20px;
-    color: #047992;
+.testimonial-container li {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    color: #343437;
 }
 
-.goals p {
-    font-family: 'Josefin Sans';
-    font-size: 20px;
-    color: #ad286b;
+.testimonial-container p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    color: #343437;
 }
 
-.comments h2 {
-    margin-left: 40px;
-    font-family: 'Dela Gothic One';
-    -webkit-text-stroke: 0.1px;
-    -webkit-text-stroke-color: #094862;
+.comment-section {
+    background-color: #FBC31A;
+    border: 4px solid #343437;
+    margin: 40px;
+}
+
+.comment-section h2 {
+    font-family: 'Arimo', sans-serif;
     font-size: 30px;
-    color: #047992;
+    padding: 0px 20px;
+    color:#343437;
 }
 
-.comments li {
-    font-family: 'Inconsolata';
-    margin-left: 40px;
-    font-size: 20px;
-    color: #047992;
+.comment-section li {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    padding: 0px 20px;
+    color: #343437;
 }
 
-.comments p {
-    font-family: 'Josefin Sans';
-    font-size: 20px;
-    color: #ad286b;
+.comment-section p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    color: #343437;
 }
 
-.new-comments h2 {
-    margin-left: 40px;
-    font-family: 'Dela Gothic One';
-    -webkit-text-stroke: 0.1px;
-    -webkit-text-stroke-color: #094862;
-    font-size: 30px;
-    color: #047992;
-}
-
-.new-comments li {
-    font-family: 'Inconsolata';
-    margin-left: 40px;
-    font-size: 20px;
-    color: #047992;
-}
-
-.new-comments p {
-    font-family: 'Josefin Sans';
-    font-size: 20px;
-    color: #ad286b;
+.new-comments {
+    text-align: center;
 }
 
 .leave-comments {
     text-align: center;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 0px 20px;
 }
-
-.leave-comments h2 {
-    margin-left: 40px;
-    font-family: 'Dela Gothic One';
-    -webkit-text-stroke: 0.1px;
-    -webkit-text-stroke-color: #094862;
-    font-size: 30px;
-    color: #047992;
-}
-
-.leave-comments label {
-    font-family: 'Inconsolata';
-    font-size: 20px;
-    color: #047992;
-}
-
-.sacambambaspis {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-}
-
-.sacambambaspis img {
-    width: 150px;
-    height: 150px;
-}
-

@@ -15,7 +15,7 @@ function addNewComment() {
     let name = document.getElementById("name_comments").value;
     let commentText = document.getElementById("comment_box").value;
 
-    if (name && commentText) {
+    if (!name || !commentText) {
         let commentSection = document.getElementById("comment_list");
         let newCommentItem = document.createElement("li");
         let timestamp = new Date();
