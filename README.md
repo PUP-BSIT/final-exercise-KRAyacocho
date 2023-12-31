@@ -2,4 +2,4 @@
 
 # Hello!
 
-Check my final exercise here: **[Ayacocho's Portfolio]**(https://ayacocho-kr.netlify.app)
+Check my final exercise here: [Ayacocho's Portfolio](https://ayacocho-kr.netlify.app)
